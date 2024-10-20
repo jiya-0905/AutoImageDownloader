@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>picturesyouneed.com </title>
+</head>
+<h1>AUTOMATIC IMAGE DOWNLOADER</h1>
+<body>
+    <div class="container">
+        <form action="/" method="POST" onsubmit="show()">
+            <label for="search"><b>What you looking for?</b></label>
+            <input type="text" id="search" name="search" required><br>
+
+            <label for="How_many?"><b>How many you want?</b></label>
+            <input type="number" id="How_many?" name="How_many?" required ><br>
+
+            <label for="email_id"><b>Your Email ID</b></label>
+            <input type="email" id="email_id" name="email_id" required placeholder="e.g. abc@gmail.com"><br>
+
+            <button type="submit">GO</button>
+        </form>
+    </div>
+</body>
+<h2>Downloaded images will be sent to your email id, my friend. Just have patience.</h2>
+</html>

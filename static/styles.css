@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+
+body {
+    font-family: "Times New Roman";
+    background-color:plum;
+    color:purple;
+}
+
+.container {
+    width: 25%;
+    margin: auto;
+    padding: 30px;
+    background: antiquewhite;
+    box-shadow: 0 0 10px rgba(7, 7, 7, 0.1);
+
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+h1{
+    text-align: center;
+    color: purple;
+}
+h2 {
+    text-align: center;
+    color: purple;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 5px 0 5px;
+}
+
+input, button {
+
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button {
+    background-color: plum;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:white;
+}
